@@ -1,0 +1,13 @@
+Options -Indexes
+DirectoryIndex index.php index.html
+
+# Correct MIME types for JS module files
+AddType application/javascript .mjs
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+</IfModule>
+
+<IfModule mod_php.c>
+    php_flag display_errors off
+</IfModule>

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "pdfjs-dist": "^5.5.207"
+  },
+  "dependencies": {
+    "flowbite": "^4.0.1"
+  }
+}
